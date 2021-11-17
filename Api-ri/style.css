@@ -1,0 +1,29 @@
+li{
+    list-style: none;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#character{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#character ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#character li {
+    display: flex;
+    flex-direction: column;
+}
+
